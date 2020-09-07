@@ -7,6 +7,89 @@ body {
     font-size: 18px;
 }
 
-.hero-img {
+/* Header Section */
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	/* border-bottom: 0.2px solid rgb(255 231 235); */
+}
+.header-logo {
 	width: 30%;
+	margin-left: 2em;
+	margin-top: 0.7em;
+}
+.nav-links {
+	list-style-type: none;
+	margin-right: 13em;
+	margin-top: 1.3em;
+}
+.nav-links li {
+	display: inline-block;
+	padding: 0 1em;
+}
+.nav-links li a {
+	text-decoration: none;
+	color: gray;
+}
+.nav-links li a:hover {
+	color: pink;
+}
+.header-btn {
+	float: right;
+	margin-top: -4em;
+	margin-right: 4em;
+	border-radius: 30px;
+	padding: 1em 2em;
+	background: pink;
+	color: white;
+	border: none;
+}
+.header-btn:hover {
+	background-color: #00c7ff;
+}
+
+/* End Of Header Section */
+
+/* First Section */
+.hero-wrapper {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.hero-img {
+	width: 50%;
+	height: 450px;
+	float: right;
+	margin-right: 4em;
+	margin-top: 2em;
+}
+
+/* Second Section */
+
+.second-section {
+	background-color: gray;
+}
+.service-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.home-service {
+	width: 50%;
+}
+.sales-delivery {
+	width: 50%;
+}
+.training {
+	width: 50%;
+}
+
+.services {
+	text-align: center;
+	margin-top: 8em;
+}
+.service-section {
+	text-align: center;
+	margin-top: 4em;
 }

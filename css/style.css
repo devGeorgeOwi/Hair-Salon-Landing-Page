@@ -67,7 +67,8 @@ header{
     float: right;
     margin-right: 4em;
     margin-top: 6em;
-    border-radius: 50%;
+	border-radius: 50%;
+	border: #362713;
 }
 .content-title {
 	font-size: 34px;
@@ -86,7 +87,7 @@ header{
     background: rgb(87, 221, 87);
     padding: 1em 4em;
     border-radius: 54px;
-    border: none;
+    border: #362713;
     color: whitesmoke;
     font-size: 13px;
 }
@@ -132,6 +133,7 @@ header{
 }
 .services a:hover {
 	color: lime;
+	background-color: #362713;
 }
 .service-section {
 	text-align: center;

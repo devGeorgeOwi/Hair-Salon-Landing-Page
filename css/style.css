@@ -9,7 +9,7 @@ body {
 
 /* Header Section */
 header{
-	background: #dadada;
+	background: #e9e2e2;
 }
 .main-header {
 	display: flex;
@@ -35,7 +35,7 @@ header{
 	color: gray;
 }
 .nav-links li a:hover {
-	color: pink;
+	color: #362713;
 }
 .header-btn {
 	float: right;
@@ -48,7 +48,7 @@ header{
 	border: none;
 }
 .header-btn:hover {
-	background-color: pink;
+	background-color:#362713;
 }
 
 /* End Of Header Section */
@@ -57,7 +57,7 @@ header{
 .hero-wrapper {
 	display: flex;
 	justify-content: space-between;
-	background: #7c5177;;
+	background: #362713;
     padding-bottom: 6em;
 }
 
@@ -110,19 +110,38 @@ header{
 .training {
 	width: 50%;
 }
+.our-service {
+	background:  #e9e2e2;
+	padding: 1em 0 4em 0;
+}
 
 .services {
 	text-align: center;
-	margin-top: 8em;
+	margin-top: 4em;
+}
+
+.services p {
+	padding: 0 2em;
+}
+.services h4 {
+	font-size: 24px;
+}
+.services a {
+	text-decoration: none;
+	color: #362713;
+}
+.services a:hover {
+	color: lime;
 }
 .service-section {
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 2em;
 }
 /* third section */
 .bg-title {
     text-align: center;
-    width: 106%;
+	width: 106%;
+	color: rgb(241 241 241);;
 }
 .bg-btn{
 	width: 24%;
@@ -135,13 +154,16 @@ header{
 	font-size: 24px;
 }
 .bg-sec{
-    margin-top: 5em;
+	background: #362713;
+	/* margin-top: 1em; */
+	padding: 4em 0;
 }
+
 /* last section */
 .cont-text{
 	padding: 3em 0;
 	text-align: center;
-	background: #dadada;
+	background: #e9e2e2;
 }
 .contact-title{
 	color: white;
@@ -171,7 +193,7 @@ header{
 /* footer */
 footer{
 	padding: 2em 0;
-	 background: black; 
+	 background: #362713; 
 }
 .footer-logo{
 	width: 35%;

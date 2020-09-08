@@ -8,6 +8,9 @@ body {
 }
 
 /* Header Section */
+header{
+	background: #dadada;
+}
 .main-header {
 	display: flex;
 	justify-content: space-between;
@@ -40,12 +43,12 @@ body {
 	margin-right: 4em;
 	border-radius: 30px;
 	padding: 1em 2em;
-	background: pink;
+	background: rgb(87, 221, 87);
 	color: white;
 	border: none;
 }
 .header-btn:hover {
-	background-color: #00c7ff;
+	background-color: pink;
 }
 
 /* End Of Header Section */
@@ -93,6 +96,7 @@ body {
 	text-align: center;
 	margin-top: 4em;
 }
+/* third section */
 .bg-title {
     text-align: center;
     width: 106%;
@@ -109,4 +113,60 @@ body {
 }
 .bg-sec{
     margin-top: 5em;
+}
+/* last section */
+.cont-text{
+	padding: 3em 0;
+	text-align: center;
+	background: #dadada;
+}
+.contact-title{
+	color: white;
+	font-size: 38px;
+}
+.name{
+	width: 40%;
+	padding: 1em;
+	margin: 1em;
+	border: none;
+}
+.email{
+	width: 30%;
+	padding: 1em;
+	margin: 1em;
+	border: none;
+}
+.contact-btn {
+    width: 15%;
+    padding: 1em 0;
+    border-radius: 20px;
+	border: none;
+	margin: 2em 0;
+	background: rgb(87, 221, 87);
+}
+/* footer */
+footer{
+	padding: 2em 0;
+	 background: black; 
+}
+.footer-logo{
+	width: 30%;
+}
+.main-footer{
+	display: flex;
+	justify-content: space-between;
+}
+.links{
+	color: #dadada;
+	list-style-type: none;
+}
+.links li a{
+   text-decoration: none;
+   color: #dadada;
+}
+.footer-links{
+	margin-right: 12em;
+}
+.footer-copy{ 
+	color: #dadada;
 }

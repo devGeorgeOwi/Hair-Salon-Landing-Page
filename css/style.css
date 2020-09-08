@@ -93,3 +93,20 @@ body {
 	text-align: center;
 	margin-top: 4em;
 }
+.bg-title {
+    text-align: center;
+    width: 106%;
+}
+.bg-btn{
+	width: 24%;
+	background: rgb(87, 221, 87);
+	margin: 2em 23em;
+    padding: 1em;
+	border-radius: 54px;
+	border: none;
+	color: whitesmoke;
+	font-size: 24px;
+}
+.bg-sec{
+    margin-top: 5em;
+}

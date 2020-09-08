@@ -39,7 +39,7 @@ header{
 }
 .header-btn {
 	float: right;
-	margin-top: -4em;
+	margin-top: -3.5em;
 	margin-right: 4em;
 	border-radius: 30px;
 	padding: 1em 2em;
@@ -57,15 +57,38 @@ header{
 .hero-wrapper {
 	display: flex;
 	justify-content: space-between;
-	position: relative;
+	background: #7c5177;;
+    padding-bottom: 6em;
 }
 
 .hero-img {
-	width: 50%;
-	height: 450px;
-	float: right;
-	margin-right: 4em;
-	margin-top: 2em;
+	width: 80%;
+    height: 450px;
+    float: right;
+    margin-right: 4em;
+    margin-top: 6em;
+    border-radius: 50%;
+}
+.content-title {
+	font-size: 34px;
+    width: 90%;
+    margin: 7em 0 0 2em;
+    color: rgb(241 241 241);
+}
+.content-desc {
+	font-size: 18px;
+    margin: 1em 4em 0 4em;
+    color: #868282;
+}
+.content-btn {
+	margin: 1em 0 0 5.5em;
+    width: 40%;
+    background: rgb(87, 221, 87);
+    padding: 1em 4em;
+    border-radius: 54px;
+    border: none;
+    color: whitesmoke;
+    font-size: 13px;
 }
 
 /* Second Section */
@@ -140,9 +163,10 @@ header{
     width: 15%;
     padding: 1em 0;
     border-radius: 20px;
-	border: none;
+	border: #dadada;
 	margin: 2em 0;
 	background: rgb(87, 221, 87);
+	color: #ffffff;
 }
 /* footer */
 footer{
@@ -150,23 +174,45 @@ footer{
 	 background: black; 
 }
 .footer-logo{
-	width: 30%;
+	width: 35%;
+    margin-left: 3em;
+    margin-top: 2em;
 }
 .main-footer{
 	display: flex;
 	justify-content: space-between;
 }
+._footer {
+	margin-right: -12em;
+}
+.footer-links1 {
+	margin-right: -9em;
+}
+.footer-links2 {
+	margin-right: 5em;
+}
 .links{
 	color: #dadada;
 	list-style-type: none;
+}
+.links li {
+	padding: 1em 0;
 }
 .links li a{
    text-decoration: none;
    color: #dadada;
 }
-.footer-links{
-	margin-right: 12em;
+
+.social-links li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 .2em;
+	margin-right: 1em;
+	margin-top: 1em;
 }
+
 .footer-copy{ 
 	color: #dadada;
+	margin-right: 6em;
+    margin-top: 3em;
 }
